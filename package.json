@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "web-dev-server --open demo/ --node-resolve"
+    "start": "web-dev-server --open demo/ --node-resolve",
+    "build": "rollup -c rollup.conf.mjs"
   },
   "author": "",
   "license": "ISC",
