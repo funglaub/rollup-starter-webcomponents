@@ -1,5 +1,4 @@
 import css from 'rollup-plugin-import-css';
-import resolve from '@rollup/plugin-node-resolve';
 
 // eslint-disable-next-line import/no-default-export
 export default {
@@ -11,6 +10,5 @@ export default {
   },
   plugins: [
    css(),
-   resolve(),
   ],
 };
