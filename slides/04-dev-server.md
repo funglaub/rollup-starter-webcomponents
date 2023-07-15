@@ -3,7 +3,7 @@
 
 Let's create a demo page:
 
-```
+```html
 <!-- demo/index.html -->
 <html>
   <script type="module" src="../main.js"></script>
@@ -19,9 +19,6 @@ npm i --save-dev @web/dev-server
 npx web-dev-server --node-resolve --open demo/ --watch
 ```
 
-[DEMO: Will not work :-)]
-
-
 Use rollup plugins:
 
 `npm i --save-dev @web/dev-server-rollup`
@@ -29,7 +26,7 @@ Use rollup plugins:
 Create a minimal config `web-dev-server.config.mjs`:
 
 
-```
+```js
 // web-dev-server.config.mjs
 
 import { fromRollup } from '@web/dev-server-rollup';

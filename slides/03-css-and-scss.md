@@ -7,7 +7,7 @@ npm i rollup-plugin-import-css --save-dev
 * Default is to extract CSS into it's own asset.
 * Not very helpfull for webcomponents.
 
-```
+```css
 // my-component.css
 :host {
   display: block;
@@ -16,7 +16,7 @@ npm i rollup-plugin-import-css --save-dev
 }
 ```
 
-```
+```js
 // my-component.js
 import { LitElement, html, css, unsafeCSS } from "lit";
 import styles from "./my-component.css";

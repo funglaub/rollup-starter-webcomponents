@@ -14,14 +14,14 @@
 $ npm i --save rollup
 ```
 
-```
+```js
 // main.js
 import("./my-component.js").then(({ MyComponent }) => {
   customElements.define("my-component", MyComponent);
 });
 ```
 
-```
+```js
 // my-component.js
 import { LitElement, html } from "lit";
 

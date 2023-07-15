@@ -1,8 +1,8 @@
 ## Using import maps
 
-Let's skip `--node-resolve` so lit will not be in our bundle and use an import map to resolve that dependency:
+Let's skip `--node-resolve` so `lit` will not be in our bundle and use an import map to resolve this dependency:
 
-```
+```html
 <!-- demo/index.html -->
 
 <html>
@@ -24,7 +24,7 @@ Let's skip `--node-resolve` so lit will not be in our bundle and use an import m
 
 Update config:
 
-```
+```js
 import { fromRollup } from '@web/dev-server-rollup';
 import rollupCss from "rollup-plugin-import-css";
 import { importMapsPlugin } from '@web/dev-server-import-maps';
